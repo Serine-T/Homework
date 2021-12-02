@@ -1,8 +1,71 @@
+/* STYLES FOR DOING TASKS */
 
+/* Task 2 */
 #wrapper.hidden {
     display: none;
 }
-
+ /* Task 4 */
 .error {
     color: red;
+}
+
+/* Task 5 */
+
+.done {
+    color: #49a6e9;
+}
+
+
+
+/* GLOBAL STYLES */
+
+section {
+    width: 70%;
+    margin: 10px auto;
+}
+
+h2,
+h3 {
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    min-height: 30px;
+    background: #49a6e9;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #83c8f9;
+}
+
+input {
+    min-height: 15px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #83c8f9;
+}
+
+.task3 {
+    display: flex;
+    justify-content: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todo_item{
+    padding: 10px;
+    margin:10px 0;
+    border-radius: 5px;
+   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+   display: flex;
+   justify-content: space-between;
 }
